@@ -1,4 +1,7 @@
-﻿![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.001.png)
+﻿![]([Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.001.png)
+![what-is-docker](https://github.com/simranpopli05/Docker/assets/153719945/c58a0455-89a9-41eb-9aa5-75fcbca1dc64)
+
+
 
 `  `**DOCKER DOCUMENT**
 
@@ -49,6 +52,7 @@ The Docker logo, with its whale graphic, symbolises the seamless packaging and t
 # <a name="_heading=h.uq281eupo53k"></a> 
 # <a name="_heading=h.kr2wgfm8q9cp"></a>**     
 # <a name="_heading=h.v47wm74g426s"></a>**Architecture of Docker**
+![Architecture-of-Docker](https://github.com/simranpopli05/Docker/assets/153719945/fbf5de33-9ec2-4853-9ad6-66ac193fd99c)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.004.png)
 
@@ -85,11 +89,14 @@ Single file with all dependencies and configuration required to run the program.
 # <a name="_heading=h.dav0fcs3c99u"></a>            **Docker files**
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.005.jpeg)
+![docekrfile](https://github.com/simranpopli05/Docker/assets/153719945/7fb897de-be9e-4a6c-a0e2-57d71ba48c78)
+
 
 Docker can build images automatically by reading the instructions from a Dockerfile. A Dockerfile is a text document that contains all the commands a user could call on the command line 
 
 
 # <a name="_heading=h.wog901odjywz"></a>**Components of Dockerfile**
+![Docker-Components](https://github.com/simranpopli05/Docker/assets/153719945/56b0de25-7625-480a-a3e4-05ad837d4e3a)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.006.png)
 
@@ -107,6 +114,7 @@ Docker can build images automatically by reading the instructions from a Dockerf
 
 1. **ipvlan:** Users have complete control over both IPv4 and IPv6 addressing by using the IPvlan driver.
 
+![dockernetwork](https://github.com/simranpopli05/Docker/assets/153719945/f3f396ea-450c-4505-b5ae-f9b21aa86112)
 
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.007.png)
@@ -118,8 +126,9 @@ Docker can build images automatically by reading the instructions from a Dockerf
 Containers don’t write data permanently to any storage location. Docker storage must be configured if you would like your container to store data permanently. The data doesn’t prevail when the container is deleted (using the remove command); this happens because when the container is deleted, the writable layer is also deleted. If the data is stored outside the container you can use it even if the container no longer exists.
 
 `          `**Types of Docker Storage**
+![dockerstorage](https://github.com/simranpopli05/Docker/assets/153719945/12be5983-ee7d-48d4-9886-4b46f0d94951)
 
-`  `**![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.008.jpeg)**
+
 
 <a name="_heading=h.hdpna740xv7a"></a>
 
@@ -201,6 +210,7 @@ Example: Just find an open spot on my computer for the web service from the cont
 
 # <a name="_heading=h.nv0ifoz6xvj3"></a>**     
 # <a name="_heading=h.povnekg4qrga"></a> **Docker Installation**
+![howtodock](https://github.com/simranpopli05/Docker/assets/153719945/9e2dd1ae-d487-41f2-90b4-cf5de81eea26)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.009.png)
 
@@ -241,7 +251,9 @@ Example: Just find an open spot on my computer for the web service from the cont
 
 **~~~**
 
-**Step:5 Check the status of docker service**         
+**Step:5 Check the status of docker service**     
+![image](https://github.com/simranpopli05/Docker/assets/153719945/cf1c45b5-8ab3-4230-bab5-f6b846e23a9c)
+
 
 \~~~
 
@@ -258,8 +270,9 @@ Example: Just find an open spot on my computer for the web service from the cont
 
 $ docker –version
 
-\~~~
 
+\~~~
+![docekrversion](https://github.com/simranpopli05/Docker/assets/153719945/11009568-2c98-47b7-8e69-a8572dc0a529)
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.010.png)
 
 **2.**  **Check the container on the machine**
@@ -269,6 +282,8 @@ $ docker –version
 `     `$ sudo docker ps
 
 \~~~
+![dockerps](https://github.com/simranpopli05/Docker/assets/153719945/f5b4375c-5ea6-46ce-a046-fdca21cd838b)
+
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.011.png)
 
@@ -279,6 +294,7 @@ $ docker –version
 `    `$   sudo docker images
 
 \~~~
+![verifyingimages](https://github.com/simranpopli05/Docker/assets/153719945/7dd2fcc4-bdc5-40fc-8e50-3d95e2796a22)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.012.png)
 
@@ -289,6 +305,7 @@ $ docker –version
 `   `$ sudo docker pull ( image name )
 
 \~~~
+![dockerpullhttpd](https://github.com/simranpopli05/Docker/assets/153719945/d524da50-1a32-436c-ac1b-1906f2dbb422)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.013.png)
 
@@ -302,6 +319,8 @@ $ docker –version
 
 \~~~
 
+![stopappche](https://github.com/simranpopli05/Docker/assets/153719945/75e9c408-a532-49ce-a749-b4b0555ffabd)
+
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.014.png)
 
 **6 Start the container** 
@@ -311,6 +330,7 @@ $ docker –version
 ` `$ sudo docker start (container name )
 
 \~~~
+![startappache](https://github.com/simranpopli05/Docker/assets/153719945/5f1b1539-3b76-4b05-b75a-362a553c2c33)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.015.png)
 
@@ -321,6 +341,7 @@ $ docker –version
 ` `$ sudo docker run -itd --name (container name ) (image name)
 
 \~~~
+![Screenshot from 2024-01-21 16-19-10](https://github.com/simranpopli05/Docker/assets/153719945/f398faa5-e836-4422-b6dd-40363fea3cf6)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.016.png)
 
@@ -333,6 +354,7 @@ $ docker –version
 ` `$ sudo docker run -itd  -p hostport:containerport --name (container name ) (image name)
 
 \~~~
+![image](https://github.com/simranpopli05/Docker/assets/153719945/cfe3db21-bd32-4e19-826c-1d097b9c1ac1)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.017.png)
 
@@ -343,6 +365,7 @@ $ docker –version
 $ sudo docker exec -it apache2 bash
 
 \~~~
+![executeappache](https://github.com/simranpopli05/Docker/assets/153719945/a848519f-a173-4131-a60f-753716ab4110)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.018.png)
 
@@ -354,6 +377,7 @@ $ sudo docker exec -it apache2 bash
 $ sudo docker cp index.html apache2:/usr/local/apache2/htdocs/
 
 \~~~
+![Screenshot from 2024-01-21 16-53-43](https://github.com/simranpopli05/Docker/assets/153719945/cfc99168-a4a4-4c11-ad28-a40ff4387ea2)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.019.png)
 
@@ -366,6 +390,7 @@ $ sudo docker cp index.html apache2:/usr/local/apache2/htdocs/
 $ sudo docker run -itd  -P  --name (container name ) (image name)
 
 \~~~
+![Screenshot from 2024-01-21 16-38-38](https://github.com/simranpopli05/Docker/assets/153719945/d5b64394-42ef-437a-a5f5-e245c476cf3f)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.020.png)
 
@@ -376,6 +401,7 @@ $ sudo docker run -itd  -P  --name (container name ) (image name)
 $  sudo docker run -itd -p 8081:80 -v /var/www/html/index.html:/usr/local/apache2/htdocs/index.html  --name apache2 httpd
 
 \~~~
+![Screenshot from 2024-01-21 17-11-50](https://github.com/simranpopli05/Docker/assets/153719945/2ae30201-3d2b-4f35-adc4-1f3ee152543f)
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.021.png)
 
