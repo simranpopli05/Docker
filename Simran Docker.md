@@ -3,33 +3,33 @@
 
 
 
-`  `**DOCKER DOCUMENT**
+`  `DOCKER DOCUMENT
 
 ![](Aspose.Words.8d76d37d-7278-49ca-a338-11ea4cfa9b37.002.png)**Presented By Simran Popli**
 
 **TABLE OF CONTENT** 
 
-[**Introduction	3**](#_heading=h.z0cn6abiswlz)**
+[Introduction	](#_heading=h.z0cn6abiswlz)
 
-[**Architecture of Docker	4**](#_heading=h.kr2wgfm8q9cp)
+[Architecture of Docker	](#_heading=h.kr2wgfm8q9cp)
 
-[**D](#_heading=h.4ute5o2aogdx)[ocker files](#_heading=h.4ute5o2aogdx)[	6**](#_heading=h.4ute5o2aogdx)
+[D](#_heading=h.4ute5o2aogdx)[ocker files](#_heading=h.4ute5o2aogdx)[	](#_heading=h.4ute5o2aogdx)
 
-[**Components of Dockerfile	8**](#_heading=h.wog901odjywz)
+[Components of Dockerfile	](#_heading=h.wog901odjywz)
 
-[**Types of Docker Network	8**](#_heading=h.lv928ctft7yy)
+[types of Docker Network	](#_heading=h.lv928ctft7yy)
 
-[**Docker Storage	10**](#_heading=h.1sgar3v90oe1)
+[Docker Storage	](#_heading=h.1sgar3v90oe1)
 
-[**Docker Volume**](#_heading=h.hdpna740xv7a)[	](#_heading=)**12**
+[Docker Volume](#_heading=h.hdpna740xv7a)[	](#_heading=)
 
-[**Port Forwarding In Docker	13**](#_heading=h.j4tx1z9j6ob8)
+[Port Forwarding In Docker	](#_heading=h.j4tx1z9j6ob8)
 
-[**Docker Installation	14**](#_heading=h.nv0ifoz6xvj3)
+[Docker Installation	](#_heading=h.nv0ifoz6xvj3)
 
-[**Docker Commands	15**](#_heading=h.bhd1ekodnzs1)
+[Docker Commands	](#_heading=h.bhd1ekodnzs1)
 
-[**THANK YOU!	21**](#_heading=h.4outra47xqg)
+[THANK YOU!](#_heading=h.4outra47xqg)
 
 
 #
@@ -136,11 +136,12 @@ Containers don’t write data permanently to any storage location. Docker storag
 **Docker Volume**
 ======================================
 
-- ## Docker volume is the most commonly used technology for the permanent storage of container data. 
+- Docker volume is the most commonly used technology for the permanent storage of container data.
 
-- ## Docker volume is managed by Docker itself and has a dedicated filesystem on the host, and doesn't depend upon the filesystem structure on the host. 
+-  Docker volume is managed by Docker itself and has a dedicated filesystem on the host, and doesn't depend upon the filesystem structure on the host.
 
-- ## Docker volumes are explicitly managed via the Docker command line and can be created alone or during container initialization
+-  Docker volumes are explicitly managed via the Docker command line and can be created alone or during container initialization
+
 
 
 
@@ -160,7 +161,7 @@ Containers don’t write data permanently to any storage location. Docker storag
 
 - It can’t be managed via Docker CLI and is totally dependent on the availability of the filesystem of the host.
 
-- A host filesystem can be created when running a container. Bind mounts are a sort of **superset of Volumes** (**named or unnamed**).
+- A host filesystem can be created when running a container. Bind mounts are a sort of superset of Volumes (named or unnamed).
 
 
 
