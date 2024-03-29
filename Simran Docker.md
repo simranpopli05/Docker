@@ -112,7 +112,7 @@ Docker can build images automatically by reading the instructions from a Dockerf
 1. **Overlay:** overlay network will enable the connection between multiple Docker demons and make different Docker swarm services communicate with each other.
 
 
-1. **ipvlan:** Users have complete control over both IPv4 and IPv6 addressing by using the IPvlan driver.
+
 
 ![dockernetwork](https://github.com/simranpopli05/Docker/assets/153719945/f3f396ea-450c-4505-b5ae-f9b21aa86112)
 
